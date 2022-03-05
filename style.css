@@ -53,8 +53,10 @@ footer {
 
 .btn {
   width: 300px;
+  
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   user-select: none;
  
@@ -63,6 +65,11 @@ footer {
 }
 #btn__element {
   width: 75%;
+
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
   padding: 15px 25px;
   background-color: #222;
   border: #222;
@@ -101,5 +108,8 @@ footer {
   .wrapper {
     
     min-height: 50vh;
+  }
+  .btn {
+    margin-top: 50%;
   }
 }
